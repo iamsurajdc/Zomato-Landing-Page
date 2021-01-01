@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.mud-10 {
+  margin: 10px 0px;
+}
+
+.mrl-10 {
+  margin: 0px 10px;
+}

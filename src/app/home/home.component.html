@@ -1,0 +1,21 @@
+<div class="form-group">
+  <form>
+    <label for="usr">City Id: </label>
+    <input
+      type="text"
+      class="form-control mud-10"
+      id="usr"
+      name="city"
+      placeholder="Enter City Id"
+      [(ngModel)]="cityId"
+    />
+    <!-- <p>{{cityId}}</p> -->
+    <a
+      type="button"
+      [routerLink]="['/collections']"
+      [queryParams]="{ cityId: cityId }"
+      class="btn btn-primary"
+      >Submit</a
+    >
+  </form>
+</div>
